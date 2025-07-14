@@ -1,0 +1,19 @@
+[project]
+name = "pdf-semiauto-bookmark"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pathlib>=1.0.1",
+    "pymupdf>=1.26.3",
+    "pymupdf4llm>=0.0.26",
+    "typer>=0.16.0",
+]
+
+[project.scripts]
+pdf-semiauto-bookmark = "pdf_semiauto_bookmark.cli:app"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
