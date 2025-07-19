@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-pdf-semiauto-bookmark = "pdf_semiauto_bookmark.cli:app"
+autobm = "pdf_semiauto_bookmark.cli:app"
 
 [build-system]
 requires = ["setuptools"]

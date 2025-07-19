@@ -22,7 +22,7 @@ Suppose your directory is as follows:
 You can extract bookmarks with the following command:
 
 ```bash
-pdf-semiauto-bookmark read input.pdf
+autobm read input.pdf
 ```
 
 After this step, a markdown file containing bookmark information will be generated:
@@ -40,7 +40,7 @@ You can edit the generated markdown file as you like.
 If the markdown file is in the proper format, you can set bookmarks with the following command:
 
 ```bash
-pdf-semiauto-bookmark write input.md
+autobm write input.md
 ```
 
 After this step, a PDF file with bookmarks will be generated:
